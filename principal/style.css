@@ -9,6 +9,38 @@ h2{
     color: #2A0074;
 }
 
-h3{
-    
+li{
+    list-style: none;
+}
+
+#titulo-verde{
+    color: #04ff9f;
+}
+
+#titulo-vermelho{
+    color: #FF9E9E;
+}
+
+#titulo-amarelo{
+    color: #ffe36d;
+}
+
+.botao{
+  display: inline-block;
+  padding: 12px 24px;
+  margin-bottom: 16px;
+  border-radius: 30px;
+  background-color: #6c54a9;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao:hover {
+  background-color: #574b90;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
