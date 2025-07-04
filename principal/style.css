@@ -3,19 +3,46 @@ body{
     font-family: Open Sans, sans-serif;
     background-color: #8A71C9;
     color: white;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 300px;
 }
 
 h2{
     color: #2A0074;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 22px;
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1,5;
 }
 
 li{
     list-style: none;
 }
 
+section{
+    max-width: 60%;
+   margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
 #titulo-verde{
     color: #04ff9f;
 }
+
 
 #titulo-vermelho{
     color: #FF9E9E;
