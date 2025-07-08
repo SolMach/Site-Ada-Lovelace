@@ -75,8 +75,12 @@ img{
 }
 
 .principal{
-    background: #ff6cb5;
-    height: 40px;
+    background: #6c54a9;
+    height: 80px;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+   
 }
 
 .principal a{
@@ -87,4 +91,16 @@ img{
 
 .principal li{
     display: inline-block;
+    line-height: 3;
+    margin: 10px 70px;
+    background-color: #48337c;
+    padding: 5px 70px; 
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.principal li:hover{
+    background-color: #2A0074;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
