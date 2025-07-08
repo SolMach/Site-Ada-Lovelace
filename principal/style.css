@@ -93,14 +93,14 @@ img{
     display: inline-block;
     line-height: 3;
     margin: 10px 70px;
-    background-color: #48337c;
+    background-color: #5a4491;
     padding: 5px 70px; 
     border-radius: 30px;
     transition: all 0.3s ease;
 }
 
 .principal li:hover{
-    background-color: #2A0074;
+    background-color: #3b296a;
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
