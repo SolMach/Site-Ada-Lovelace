@@ -1,3 +1,4 @@
+
 body{
     text-align: center;
     font-family: Open Sans, sans-serif;
@@ -32,8 +33,12 @@ ul{
 
 
 section{
-    max-width: 60%;
-   margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
+}
+
+section section{
+    width: 100%;
 }
 
 img{
@@ -52,6 +57,13 @@ img{
 
 #titulo-amarelo{
     color: #ffe36d;
+}
+
+#enviar{
+    background-color: #41f341;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    padding: 2px 20px;
 }
 
 .botao{
